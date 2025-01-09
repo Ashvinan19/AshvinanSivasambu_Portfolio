@@ -366,9 +366,11 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 50%; /* Reduce the width to 50% of its container */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: contain; /* Ensure the image fits nicely within the space */
 }
+
 
 .project-title {
   margin: 1rem;
